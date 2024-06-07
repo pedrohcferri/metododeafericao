@@ -91,18 +91,18 @@ table{
     padding: 2% 1%;
     align-items:normal;
   
-    height: 170px;
+    height: 100%;
     width: 94%;
     border-radius: 5px;
     list-style: none;
     gap: 30%;
-
+    box-sizing: border-box;
 }
 
 
 .lista_um{
     list-style-type: none;
-    padding:0.4% 2%;
+    /* padding:0.4% 2%; */
    
 }
 
@@ -112,7 +112,8 @@ table{
 }
 .logoresultados{
   align-items: center;
-  justify-content: space-between;
+    display: flex;
+  flex-wrap: nowrap;
    
 }
 .clubetabela{
