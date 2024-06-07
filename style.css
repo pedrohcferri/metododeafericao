@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+}
+body{
+    background-color:#1d1d20f6;
+    
+
+}
+main{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:#1d1d20f6;
+
+
+}
+.titulo{
+    width: 100%;
+    background-color: #2f3133;
+    color:#ffffff;
+    display: flex;
+    justify-content:space-between;
+   
+   
+    align-items:center;
+    
+}
+.titulo_tema{
+    width: 50;
+    padding: 1% 2%;
+    
+   
+}
+.azul{
+    background-color:#4067d1;
+
+   
+}
+.red{
+    background-color: #ac2020;
+   width: 1px;
+   
+}
+.green{
+    background-color: #1a790e;
+}
+
+.logo{
+    
+    max-width: 30px; max-height: 30px;
+   
+}
+.parametro_um{
+    display: flex;
+    padding: 1%;
+    justify-content: flex-start;
+}
+.linha{
+    gap: 10px;
+}
+
+td{
+    align-items: center;
+    text-align: center;
+    padding: 0.5%;
+    border-top: 2px solid rgba(130, 139, 131, 0.067);
+
+ 
+}
+table{
+    font-size: 20px;
+    color:  #c2c2c9;
+    background-color: #1d1d20f6;
+    width: 100vw;
+    height: 500%;
+    padding: 1% 3%;
+    align-items: centers;
+    box-sizing: border-box;
+ 
+   
+}
+
+.inf_tabela{
+    display: flex;
+    color: #e5e9ec;
+    background-color:#2f3133;
+    padding: 3% 1%;
+    align-items:normal;
+    /* list-style-type: none; */
+    height: 5%;
+    width: 94%;
+    border-radius: 5px;
+    list-style: none;
+    gap: 30%;
+    box-sizing: border-box;
+}
+
+
+.lista_um{
+    list-style-type: none;
+    padding:1% 2%;
+   
+}
+
+.lista_dois{
+    list-style-type: none;
+    padding:1% 2%;
+}
+.logoresultados{
+  align-items: center;
+  justify-content: space-between;
+   
+}
+.clubetabela{
+    width: 4%;
+}
+tr{border: 1px solid blanchedalmond;}
+
+.cluberesultados{
+    width: 7%;
+    
+    
+}
+.quadradoazul{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+.squarea {
+    width: 15px;
+    height: 15px;
+    background-color: #4067d1;
+  }
+  .quadradolara{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+  }
+
+ .squarel{
+    width: 15px;
+    height: 15px;
+    background-color: #da511c;
+ }
+ .quadradogreen{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+ }
+ .squareg{
+    width: 15px;
+    height: 15px;
+    background-color: #1a790e;
+ }
+ .quadradored{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+ }
+ .squarer{
+    width: 15px;
+    height: 15px;
+    background-color: #ac2020;
+ }
+ .clubetabelaum{
+    width: 3px;
+    padding: 1px;
+    align-items: center;
+    justify-content: center;
+    color:#1d1d20f6 ;
+ }
+ .clubetabeladois{
+   padding:1px;
+   display: flex;
+ }
+ .primeiracoluna{
+    color:#1d1d20f6 ;
+ }
