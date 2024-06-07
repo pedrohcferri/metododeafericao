@@ -67,7 +67,7 @@ td{
     align-items: center;
     text-align: center;
     padding: 0.5%;
-    border-top: 2px solid rgba(130, 139, 131, 0.067);
+    border-top: 2px solid rgba(23, 182, 41, 0.067);
 
  
 }
@@ -91,7 +91,7 @@ table{
     padding: 2% 1%;
     align-items:normal;
   
-    height: 1%;
+    height: 170px;
     width: 94%;
     border-radius: 5px;
     list-style: none;
@@ -102,7 +102,7 @@ table{
 
 .lista_um{
     list-style-type: none;
-    padding:1% 2%;
+    padding:0.4% 2%;
    
 }
 
