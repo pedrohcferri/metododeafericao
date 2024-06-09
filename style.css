@@ -19,6 +19,7 @@ main{
 
 
 }
+
 .titulo{
    
     background-color: #2f3133;
@@ -72,6 +73,7 @@ td{
     padding: 0.5%;
     border-top: 2px solid rgba(23, 182, 41, 0.067);
 
+
  
 }
 
@@ -118,22 +120,30 @@ table{
     padding:1% 2%;
 }
 .logoresultados{
-  align-items: center;
-    /* display: flex; */
-  flex-wrap: nowrap;
-  width: 9%;
+    align-items: center;
+    flex-shrink: 0;
+    /* display: flex;  */
+    flex-wrap: nowrap;
+    gap: 5px; 
+    width: 3vw;
+  white-space: nowrap;
+  
    
 }
 .clubetabela{
     width: 4%;
 }
-tr{border: 1px solid blanchedalmond;}
+tr{border: 1px solid blanchedalmond;
+}
 
 .cluberesultados{
-    display: block;
+    display: flex;
     align-items: center;
     justify-content: center;
-    flex-wrap: nowrap;
+    white-space: nowrap;
+    
+    
+    
     
 }
 .quadradoazul{
